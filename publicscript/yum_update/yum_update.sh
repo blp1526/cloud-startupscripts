@@ -13,7 +13,7 @@ yum -y update || exit 1
 WILL_NOT_REBOOT=@@@noreboot@@@
 
 if [ -z ${WILL_NOT_REBOOT} ]; then
-    WILL_NOT_REBOOT="0"
+  WILL_NOT_REBOOT="0"
 fi
 
 if [ ${WILL_NOT_REBOOT} != "1" ];then

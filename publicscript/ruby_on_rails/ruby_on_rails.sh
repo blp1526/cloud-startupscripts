@@ -25,14 +25,14 @@ ruby_version=@@@ruby_version@@@
 create_gemrc=@@@create_gemrc@@@
 
 if [ $user != "root" ]; then
- home="/home/$user"
+  home="/home/$user"
 else
- home="/root"
+  home="/root"
 fi
 
 # ユーザーの設定
 if ! cat /etc/passwd | awk -F : '{ print $1 }' | egrep ^$user$; then
- adduser $user
+  adduser $user
 fi
 
 echo "[1/5] Ruby のインストールに必要なライブラリをインストール中..."
@@ -69,7 +69,7 @@ cat << __EOS__ > $home/.gemrc
 install: --no-document
 update:  --no-document
 __EOS__
- chown $user:$user $home/.gemrc
+  chown $user:$user $home/.gemrc
 fi
 
 echo "[3/5] Ruby のインストール中..."
