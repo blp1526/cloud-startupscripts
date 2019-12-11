@@ -47,7 +47,7 @@
 | メッセージキュー管理 | [RabbitMQ](./publicscript/rabbitmq/rabbitmq.sh) | メッセージキュー管理システムであるRabbitMQをインストールします。 |
 | 開発言語・フレームワーク | [Laravel](./publicscript/laravel/laravel.sh) | "Web職人のためのPHPフレームワーク" をインストールします。<br />※CentOS7系のみで動作します。 | 
 | 開発言語・フレームワーク | [LAMP](./publicscript/lamp/lamp.sh) | Apache、MySQL、PHPをインストールし、LAMP構成を作成します。 | 
-| 開発言語・フレームワーク | [Node-RED](./publicscript/node-red/node-red.sh) | ブラウザの操作だけでハードウェア・デバイスを制御できるプログラミング・ツール「Node-RED」をインストールします。<br />※CentOS7系のみで動作します |
+| 開発言語・フレームワーク | [Node-RED](./publicscript/node-red/node-red.sh) | ブラウザの操作だけでハードウェア・デバイスを制御できるプログラミング・ツール「Node-RED」をインストールします。<br />※CentOS 7.X, 8.X 系のみで動作します |
 | 開発言語・フレームワーク | [Ruby on Rails](./publicscript/ruby_on_rails/ruby_on_rails.sh) | スクリプト言語RubyのフレームワークであるRuby on Railsをインストールします。 |
 | プロジェクト管理 | [GitLab CE](./publicscript/gitlab/gitlab.sh) | GitHubライクなGitリポジトリ管理機能を持つモダン開発者向けプラットフォーム「[GitLab](https://about.gitlab.com)」をインストールします。<br />※推奨メモリは4GBです |
 | プロジェクト管理 | [Redmine](./publicscript/redmine/redmine.sh) | プロジェクト管理ソフトウェアのRedmineをインストールし、起動時に動作する状態に設定します。 |
